@@ -6,7 +6,6 @@ import Item from './components/Item'
 const App = () => {
   const [workers, setWorkers] = useState(BaseColaboradores);
   const [search, setSearch]   = useState('');
-console.log(search);  
 
   const onSubmit = (newWorjers) => {
     setWorkers([...workers, newWorjers])
